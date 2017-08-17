@@ -5,7 +5,7 @@ var text = document.getElementById('textArea');
 function writeToDom(){
 	var newCard ="";
 	newCard+= `<div class="cardHolder">`;
-	newCard+= `${text.value} <button id="delete" class="delete" type="button">Delete</button>`;
+	newCard+= `<h3>${text.value}</h3><button id="delete" class="delete" type="button">Delete</button>`;
 	newCard+= `</div>`
 	cardHolderDiv.innerHTML += newCard;
 }
@@ -13,7 +13,6 @@ function writeToDom(){
 function deleteCard(event) {
 	
 	if(event.target.className === 'delete'){
-			console.log(event);
 		event.target.parentElement.remove();
 	}
 }

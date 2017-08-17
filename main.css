@@ -9,5 +9,11 @@ body {
 	width: 250px;
 	height: 300px;
 	border: solid black 1px;
+	position: relative;
 }
 
+.delete {
+	position: absolute;
+	bottom: 10px;
+	top: 280px;
+}
