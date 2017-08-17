@@ -5,7 +5,7 @@ var text = document.getElementById('textArea');
 function writeToDom(){
 	var newCard ="";
 	newCard+= `<div class="cardHolder">`;
-	newCard+= `${text.value} <button id="delete" class="delete" type="button">delete</button>`;
+	newCard+= `${text.value} <button id="delete" class="delete" type="button">Delete</button>`;
 	newCard+= `</div>`
 	cardHolderDiv.innerHTML += newCard;
 }
