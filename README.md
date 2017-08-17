@@ -14,4 +14,4 @@ Sample of code in project
 }
 Screen Shot of project
 
-![Screen Shot](dynamiccards/images/Screen Shot 2017-08-17 at 6.15.03 PM.png)
+![Screen Shot](dynamiccards/images/https://github.com/Matthensley777/dynamiccards/blob/master/images/Screen%20Shot%202017-08-17%20at%206.15.03%20PM.png)
